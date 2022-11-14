@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code With Me</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand  " id="color" href="#">Code With Me</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="color1">
+                        <a class="nav-link active" aria-current="page" href="website.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Languages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">C</a></li>
+                            <li>
+                                <a class="dropdown-item"> C++</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                            <li><a class="dropdown-item" href="#">Ruby</a></li>
+                            <li><a class="dropdown-item" href="#">R</a></li>
+
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Contact Us.html">Contact Us</a>
+                    </li>
+                    <!-- <iframe src="Contact Us.html" frameborder="0"></iframe> -->
+                    <!-- </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item">Contact Us</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+
+                </form>
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="detailsofloginpage">Enter Your Details</div>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div><br>
+                            <div>
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success">Log in</button>
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 detailsofloginpage" id="exampleModalToggleLabel2">Enter
+                                    Details To Sign Up</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="firstname" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="lastname" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="inputAddress"
+                                            placeholder="1234 Main St">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">City</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="contactnumber" class="form-label">Contact Number</label>
+                                        <input type="tel" class="form-control" id="inputAddress2" placeholder="+91-">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label">Graduate</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+
+
+
+
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-bs-target="#exampleModalToggle"
+                                    data-bs-toggle="modal">Back to Log in </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button"
+                    id="modall">Log in</a>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x600/?laptop" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome To Coding World</h2>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iusto omnis, at reprehenderit
+                            sit doloribus ipsum, laudantium expedita veritatis alias quae corporis, asperiores placeat!
+                            Veniam quod porro impedit quidem. Inventore!</p>
+                        <button type="button" class="btn btn-primary">Web Development</button>
+                        <button type="button" class="btn btn-danger">Data Science</button>
+                        <button type="button" class="btn btn-warning">Tech Fun</button>
+                    </div>
+
+                </div>
+                <div class="carousel-item carousel-fade">
+                    <img src="https://source.unsplash.com/1600x600/?view" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Welcome to Coding World</h2>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iusto omnis, at
+                                reprehenderit
+                                sit doloribus ipsum, laudantium expedita veritatis alias quae corporis, asperiores
+                                placeat!
+                                Veniam quod porro impedit quidem. Inventore!</p>
+                            <button type="button" class="btn btn-primary">Web Development</button>
+                            <button type="button" class="btn btn-danger">Data Science</button>
+                            <button type="button" class="btn btn-warning">Tech Fun</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1600x600/?sky" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sky</h5>
+                        <p>The equivalent RGB values are (113, 188, 225), which means it is composed of 21% red, 36%
+                            green and 43% blue. The CMYK color codes, used in printers, are C:50 M:16 Y:0 K:12. In the
+                            HSV/HSB scale, Sky has a hue of 200°, 50% saturation and a brightness value of 88%.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- margin ki class my -4 4 mai pixel aayega and my is margin in y axis -->
+
+        <!--  next -->
+        <div class="container my-4">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Laptop</strong>
+                            <h3 class="mb-0">Learn About Thier Configurations</h3>
+                            <div class="mb-1 text-muted">12 Nov
+                                2022
+                            </div>
+                            <p class="card-text mb-auto">This will help you to find about varities of laptops and abou
+                                their intel cooregraphics level and more..</p>
+                            <a href="#" class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="image" src="laptop.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-danger">GLobal Confrences</strong>
+                            <h3 class="mb-0">International </h3>
+                            <div class="mb-1 text-muted">12 Nov
+                                2022
+                            </div>
+                            <p class="card-text mb-auto">Coding is proving the global careerscape. Clever code has made
+                                dramatic changes to how we approach workCoding is proving to be of huge importance </p>
+                            <a href="#" class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="image" src="laptop4.jpeg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-warning">Languages</strong>
+                            <h3 class="mb-0">Importance Of Learning languages</h3>
+                            <div class="mb-1 text-muted">12 Nov
+                                2022
+                            </div>
+                            <p class="card-text mb-auto">Python is a dynamically typed language, so the variables are
+                                defined automatically.
+                                Python is more readable and uses lesser code to other programming languages.</p>
+                            <a href="#" class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="image" src="laptop3.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Graphics</strong>
+                            <h3 class="mb-0">In
+                                Mordern World
+                            </h3>
+                            <div class="mb-1 text-muted">12 Nov 2022</div>
+                            <p class="mb-auto">This lesson discusses Python's graphical objects. You will learn how to
+                                use GraphWin, Point, Circle, Oval, Line, Text, and Rectangle objects in a Python GUI.
+                                GraphWin is a class in graphics.py </p>
+                            <a href="#" class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="image" src="laptop2.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- </div>
+    </div>
+    <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  
+        </div>
+      </div><div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  
+        </div>
+      </div><div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  
+        </div>
+      </div>  -->
+
+    <footer class="container">
+        <p class="float-end" style="direction: ltr; text-align: left;"><a href="#" _msthash="572117"
+                _msttexthash="137137">Back to top</a></p>
+        <p _msthash="572234" _msttexthash="3138889" style="direction: ltr; text-align: left;">© 2017–2022 Company XYZ,
+            Inc. · <a href="#" _istranslated="1">Privacy Policy</a> . <a href="#" _istranslated="1"> Terms of Use</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

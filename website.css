@@ -1,0 +1,43 @@
+
+.col-auto{
+    background-image: "https://source.unsplash.com/1600x600/?view";
+}
+/* <div class="col-auto d-none d-lg-block"> */
+.image{
+    height:250px;
+    width: 250px;
+}
+.bg-dark{
+    color: white;
+}
+#color{
+    color: rgb(27, 18, 18);
+    text-decoration: underline;
+    /* font-size: 1.6rem; */
+}
+a{
+    color: whitesmoke;
+}
+.images{
+    height:250px;
+    width: 250px;
+}
+#modall{
+    margin-left: 10px;
+    
+
+}
+#email{
+ font-style: italic;
+ font-weight: bolder;
+}
+#pass{
+    font-style: italic;
+    font-weight: bolder;
+}
+.detailsofloginpage{
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
